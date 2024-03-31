@@ -1,0 +1,4 @@
+import math
+
+def exp(x):
+    return 1+sum([x**n/math.factorial(n) for n in range(1,100)])
